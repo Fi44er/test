@@ -4,7 +4,7 @@ const { getOrders, updateOrder, deleteOrder } = require("./api/order/order");
 const { getTeams, updateTeam, deleteTeam } = require("./api/team/team");
 const ExcelJS = require("exceljs");
 
-const BOT_TOKEN = "6706590553:AAHjcCNfUy4ZZvd_sRb4u5O7ZmHh6NZza5E";
+const BOT_TOKEN = "7917088411:AAGsdFKH_ebgfRTJJGaWVdPeJkgYw023AXE";
 const bot = new Telegraf(BOT_TOKEN);
 
 // Состояние пользователя
